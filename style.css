@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9966, #ff5e62); /* Gradient background */
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center; /* Center text */
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+h1, h2 {
+    margin: 20px 0;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+nav {
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 15px;
+    color: white;
+}
+
+ul li:hover {
+    color: #ffcccb;
+}
+
+table {
+    margin: 20px auto; /* Center the table */
+    width: 100%; /* Full width inside the container */
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+.btn {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: wheat;
+    font-weight: bold;
+    border: 2px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+img {
+    cursor: pointer;
+   margin-left: 85px;
+   margin-top: 5px;
+}
+
+#website,#username, #password{
+    padding: 10px;
+    margin: 10px 5px;
+    width: 50%;
+    border: 1px solid black ;
+    border-radius: 15px;
+}
+
+form {
+    display: flex ;
+    margin: 20px;
+    align-items: baseline;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    font-weight: 800;
+
+
+}
