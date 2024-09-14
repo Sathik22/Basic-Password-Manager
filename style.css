@@ -57,8 +57,8 @@ ul li:hover {
 }
 
 table {
-    margin: 20px auto; /* Center the table */
-    width: 100%; /* Full width inside the container */
+    margin: 20px auto; 
+    width: 100%; 
     border-collapse: collapse;
     border: 2px solid black;
 }
@@ -117,6 +117,37 @@ label {
     display: block;
     margin: 10px;
     font-weight: 800;
-
-
 }
+@media (max-width: 800px) {
+    .container {
+        width: 95vw; 
+        padding: 20px;
+    }
+
+    nav {
+        padding: 10px; 
+    }
+
+    ul {
+        flex-direction: column; 
+    }
+
+    ul li {
+        margin: 10px 0; 
+    }
+
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #website, #username, #password {
+        width: 100%; 
+    }
+
+    img {
+        margin-left: 0; 
+        display: block;
+        margin: 10px auto; 
+    }
+}   
