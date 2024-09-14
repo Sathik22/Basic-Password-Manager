@@ -118,6 +118,8 @@ label {
     margin: 10px;
     font-weight: 800;
 }
+/*To make Responsive*/
+
 @media (max-width: 800px) {
     .container {
         width: 95vw; 
